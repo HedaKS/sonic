@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+}
+
+body
+{
+    background-color: #25238A;
+}
+
+header
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.ul-nav-bar {
+    
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #656BA0;
+  }
+
+.li-nav-bar {
+    float: left;
+    width: 100%;
+}
+
+@font-face {
+    font-family: Inter-ExtraBold;
+    src: url(../fonts/Inter/static/Inter-ExtraBold.ttf);
+}
+
+.text-nav-bar{
+    font-family: Inter-ExtraBold;
+    height: 120px;
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+  }
+
+.text-nav-bar:hover {
+    background-color: #111;
+  }
+
+.li-nav-bar {
+    border-right: 2px solid #000000;
+  }
+  
+.li-nav-bar:last-child {
+    border-right: none;
+  }
+
+section
+{
+    margin-top: 55%;
+    display: flex;
+    justify-content: center;
+}
+
+#div-section
+{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#div-img-section
+{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+#img-section
+{
+    width: 60%;
+
+    
+}
+
+#div-text-section
+{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+
+.text-section{
+    width: 60%;
+    font-family: Inter-ExtraBold;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: #FBF7F7;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+#div-bottom-section
+{
+    position: fixed;
+    bottom: -5px;
+    width: 100%;
+}
+
+#img-bottom-section
+{
+    width: 8%;
+}
